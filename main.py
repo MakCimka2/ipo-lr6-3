@@ -1,7 +1,7 @@
 stroka = input("Введите строку: ")
 stroka1 = input("Введите строку: ")
 stroka2 = input("Введите строку: ")
-if len(stroka) == 0 or len(stroka1) == 0 or len(stroka2) == 0: #Сравниваем строки
+if len(stroka) == 0 or len(stroka1) == 0 or len(stroka2) == 0: #Проверяем строки
     print("Строка введена неверно")
 else: #Выводим их количество
     print (len(stroka.split()))
